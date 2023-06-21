@@ -14,7 +14,6 @@
 .portfolio_item:hover {
   border-color: var(--color-primary-variant);
   background: rgb(87, 43, 249);
-  /* background: rgb(2, 2, 253); */
 }
 
 .portfolio_item-image {
@@ -40,7 +39,6 @@
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
-  /* padding: 0.3em 0.6em; */
   padding: 0.1em 0.5em;
   border-radius: 0.4rem;
   cursor: pointer;
@@ -59,19 +57,13 @@
 .techStack-points{
   position: absolute;
   background-color:white;
-  /* background-color:black; */
-  /* color:white; */
-  /* background-color: rgb(234, 234, 234); */
   border-radius: 5px;
 color: black;
-  min-width: 220px;
+  min-width: 280px;
   max-width: 50vw;
   margin-right: 1rem;
    margin-top: -0.5rem;
-   /* padding:0.2em; */
    z-index:999;
-   /* box-shadow: 1px 2px 2px 1px rgb(205, 204, 204); */
-  /* margin-left: -4rem; */ 
 }
 
 .techStack-points::before {
