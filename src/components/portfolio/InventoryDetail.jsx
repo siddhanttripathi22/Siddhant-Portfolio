@@ -245,7 +245,7 @@ export default function InventoryTechDetail() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            his Inventory Management React App is designed primarily for medium
+            This Inventory Management React App is designed primarily for medium
             to large-screen-size devices It is more suitable for non-mobile
             devices.
           </Typography>
