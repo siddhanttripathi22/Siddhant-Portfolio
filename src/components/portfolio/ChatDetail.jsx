@@ -8,6 +8,24 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 export default function ChatDetail() {
   return (
     <div>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography>Responsiveness</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            This React chat app is designed to be responsive, adapting to
+            different screen sizes and devices, including desktops, laptops,
+            tablets, and mobile phones.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <br/>
+
       <Accordion sx={{ mb: "0.2em" }} disabled>
         <AccordionSummary aria-controls="panel3a-content" id="panel3a-header">
           <Typography>Working</Typography>
@@ -97,7 +115,7 @@ export default function ChatDetail() {
         </AccordionSummary>
         <AccordionDetails>
           <ul className="points">
-            <li>Users can join or leave  the group conversations.</li>
+            <li>Users can join or leave the group conversations.</li>
 
             <li>
               Socket.io provides methods to handle joining and leaving chat
@@ -105,8 +123,8 @@ export default function ChatDetail() {
             </li>
             <li>
               When a user joins or leaves , the corresponding events are emitted
-              to the server, which updates the user's membership status and notifies
-              other participants.
+              to the server, which updates the user's membership status and
+              notifies other participants.
             </li>
           </ul>
         </AccordionDetails>
@@ -179,7 +197,7 @@ export default function ChatDetail() {
               Users can create accounts and log in to the chat app and logout
               from chat app.
             </li>
-            
+
             <li>
               Users can choose avatars from a rich variety of categories to
               personalize their chat profiles, making it easier to identify and
@@ -194,28 +212,7 @@ export default function ChatDetail() {
             </li>
 
             <li>User connection and disconnection message display</li>
-
-           
           </ul>
-        </AccordionDetails>
-      </Accordion>
-
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <Typography>Responsiveness</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-          
-              This React chat app is designed to be
-              responsive, adapting to different screen sizes and devices,
-              including desktops, laptops, tablets, and mobile phones.
-            
-          </Typography>
         </AccordionDetails>
       </Accordion>
     </div>

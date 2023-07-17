@@ -6,13 +6,14 @@ import { FiBook } from "react-icons/fi";
 import { BiMessageRoundedDetail } from "react-icons/bi";
 import { GrProjects } from "react-icons/gr";
 
-import { MdOutlineArticle  } from "react-icons/md";
+import { MdOutlineArticle } from "react-icons/md";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>
       <a
+        title="Home"
         href="#"
         onClick={() => setActiveNav("#")}
         className={activeNav === "#" ? "active" : ""}
@@ -20,6 +21,7 @@ const Nav = () => {
         <RxHome />
       </a>
       <a
+        title="About"
         href="#about"
         onClick={() => setActiveNav("#about")}
         className={activeNav === "#about" ? "active" : ""}
@@ -28,6 +30,7 @@ const Nav = () => {
         <FaUser />
       </a>
       <a
+        title="Skill"
         href="#experience"
         onClick={() => setActiveNav("/experience")}
         className={activeNav === "/experience" ? "active" : ""}
@@ -36,23 +39,25 @@ const Nav = () => {
       </a>
 
       <a
+        title="Projects"
         href="#portfolio"
         onClick={() => setActiveNav("#portfolio")}
         className={activeNav === "#portfolio" ? "active" : ""}
       >
-        <GrProjects  style={{color:"white"}}  color="white"/> 
+        <GrProjects style={{ color: "white" }} color="white" />
       </a>
 
       <a
+        title="Quiz"
         href="#testimonials"
         onClick={() => setActiveNav("#testimonials")}
         className={activeNav === "#testimonials" ? "active" : ""}
       >
-       
-        <MdOutlineArticle/>
+        <MdOutlineArticle />
       </a>
 
       <a
+        title="Contact"
         href="#contact"
         onClick={() => setActiveNav("#contact")}
         className={activeNav === "#contact" ? "active" : ""}

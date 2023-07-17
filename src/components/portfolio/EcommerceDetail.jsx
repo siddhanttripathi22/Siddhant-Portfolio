@@ -11,6 +11,27 @@ export default function EcommerceTechDetail() {
       {/*  Front-End Technologies:
        */}
       <br />
+
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography>Responsiveness</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <ul className="points">
+            <li>
+              User-friendly layout for seamless user experience on different
+              devices.
+            </li>
+            <li>Adaptive navigation menus and components.</li>
+          </ul>
+        </AccordionDetails>
+      </Accordion>
+      <br/>
+
       <Accordion sx={{ mb: "0.2em" }} disabled>
         <AccordionSummary aria-controls="panel3a-content" id="panel3a-header">
           <Typography>Front-End Technologies</Typography>
@@ -74,8 +95,8 @@ export default function EcommerceTechDetail() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Implemented Redux Toolkit(RTK) to manage the application's state efficiently,
-            enabling seamless data flow.
+            Implemented Redux Toolkit(RTK) to manage the application's state
+            efficiently, enabling seamless data flow.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -90,8 +111,8 @@ export default function EcommerceTechDetail() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          Integration with payment gateway APIs (Razorpay) to facilitate secure online payments.
-
+            Integration with payment gateway APIs (Razorpay) to facilitate
+            secure online payments.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -172,13 +193,10 @@ export default function EcommerceTechDetail() {
         <AccordionDetails>
           <ul className="points">
             <li>Secure user registration and login system.</li>
+            <li>Authentication method email/password (JSON Web Token).</li>
             <li>
-              Authentication method email/password (JSON Web Token).
-            </li>
-            <li>
-            Restricts access
-              to certain routes and functionalities based on the user’s role and
-              permissions.
+              Restricts access to certain routes and functionalities based on
+              the user’s role and permissions.
             </li>
             <li>User profile management and password reset functionality.</li>
           </ul>
@@ -296,28 +314,6 @@ export default function EcommerceTechDetail() {
           </ul>
         </AccordionDetails>
       </Accordion>
-
-
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <Typography>Responsive Design</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <ul className="points">
-            <li>
-              User-friendly layout for seamless user experience on different
-              devices.
-            </li>
-            <li>Adaptive navigation menus and components.</li>
-          </ul>
-        </AccordionDetails>
-      </Accordion>
-
-    
     </div>
   );
 }

@@ -5,7 +5,7 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
-export default function YoutubeCloneDetail() {
+export default function PokedexDetail() {
   return (
     <div>
       <Accordion>
@@ -18,12 +18,9 @@ export default function YoutubeCloneDetail() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            The YouTube Clone with React MUI ensures that the multiple
-            categories feature is implemented with a responsive design. The
-            layout adjusts seamlessly across various devices and screen sizes,
-            including desktops, laptops, tablets, and mobile devices. This
-            responsiveness provides a consistent and user-friendly experience,
-            regardless of the platform used to access the app.
+            The app is designed to be responsive and optimized for various
+            devices and screen sizes. Enjoy a seamless experience whether you're
+            using it on a desktop, tablet, or mobile device.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -34,15 +31,14 @@ export default function YoutubeCloneDetail() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Video Search and Playback</Typography>
+          <Typography>Search</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Users can search for videos by entering keywords in the search bar.
-            The app communicates with the YouTube Data API to fetch and display
-            relevant video results. Clicking on a video thumbnail or title opens
-            a video player that supports playback, with controls for play/pause,
-            volume adjustment, and fullscreen mode.
+            Users can search for different Pokemons by entering its name or
+            number in the search bar. The app communicates with the Pokeapi to
+            fetch and display relevant Pokemon result. Clicking on a Pokemon
+            image or title opens a detail page of that Pokemon.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -52,16 +48,13 @@ export default function YoutubeCloneDetail() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>Categorized Video Content</Typography>
+          <Typography>Bookmark Pokemon</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            The YouTube Clone with React MUI organizes videos into various
-            categories based on genres, topics, or themes. These categories
-            could include popular genres like music, sports, news, gaming, and
-            more. By categorizing videos, users can quickly navigate to the
-            specific content they are interested in without having to perform
-            individual searches.
+            Users can bookmark their favorite Pokémon, easily access and manage
+            their collection, and dive into the world of Pokémon with
+            convenience.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -76,9 +69,9 @@ export default function YoutubeCloneDetail() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            The technical stack of the app includes React MUI, HTML5, CSS3, and
-            JavaScript ES6+. It communicates with the YouTube Data API for video
-            data. For seamless API integration, axios has been used.
+            The technical stack of the app includes React, HTML5, CSS3, and
+            JavaScript ES6+. It communicates with the Pokeapi for Pokemons data.
+            For seamless API integration, axios has been used.
           </Typography>
         </AccordionDetails>
       </Accordion>

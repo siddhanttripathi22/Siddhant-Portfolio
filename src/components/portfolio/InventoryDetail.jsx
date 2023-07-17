@@ -11,6 +11,25 @@ export default function InventoryTechDetail() {
       {/*  Front-End Technologies:
        */}
       <br />
+
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography>Responsiveness</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            This Inventory Management React App is designed primarily for medium
+            to large-screen-size devices It is more suitable for non-mobile
+            devices.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <br/>
+
       <Accordion sx={{ mb: "0.2em" }} disabled>
         <AccordionSummary aria-controls="panel3a-content" id="panel3a-header">
           <Typography>Front-End Technologies</Typography>
@@ -231,23 +250,6 @@ export default function InventoryTechDetail() {
             The app includes search and pagination capabilities, allowing users
             to quickly find specific products based on criteria such as name and
             category.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <Typography>Responsiveness</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            This Inventory Management React App is designed primarily for medium
-            to large-screen-size devices It is more suitable for non-mobile
-            devices.
           </Typography>
         </AccordionDetails>
       </Accordion>
