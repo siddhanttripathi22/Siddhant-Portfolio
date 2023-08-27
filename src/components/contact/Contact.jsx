@@ -38,7 +38,7 @@ const Contact = () => {
           <article className="contact_option">
             <AiFillLinkedin className="contact_option-icon" />
             <h4>LinkedIn</h4>
-            <h5>Kamlesh</h5>
+            <h5>Siddhant</h5>
             <a href="https://linkedin.com" target="_blank">
               Send a Message
             </a>
@@ -47,7 +47,7 @@ const Contact = () => {
           <article className="contact_option">
             <IoLogoTwitter className="contact_option-icon" />
             <h4>Twitter</h4>
-            <h6>@Kamlesh28941022</h6>
+            <h6>@Siddhan97115645</h6>
             <a href="https://twitter.com" target="_blank">
               Send a Message
             </a>
@@ -56,7 +56,7 @@ const Contact = () => {
           <article className="contact_option">
             <BsWhatsapp className="contact_option-icon" />
             <h4>WhatsApp</h4>
-            <h5>+917307553048</h5>
+            <h5>7080740634</h5>
             <a
               href="https://api.whatsapp.com/send?=+919519003091"
               target="_blank"

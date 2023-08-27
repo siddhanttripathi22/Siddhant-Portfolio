@@ -6,7 +6,7 @@ import './footer.css'
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer_logo'>Kamlesh</a>
+      <a href="#" className='footer_logo'>Siddhant</a>
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -17,13 +17,13 @@ const Footer = () => {
       </ul>
 
       <div className='footer_socials'>
-        <a href="https://github.com/kcarniwall50"><AiFillGithub/></a>
-        <a href="https://twitter.com/Kamlesh28941022?t=vrmJUWopGErpUMztC9iOSw&s=35"><IoLogoTwitter/></a>
-        <a href="https://www.linkedin.com/in/kamlesh-patel-605633252/"><AiFillLinkedin/></a>
+        <a href="https://github.com/siddhanttripathi22"><AiFillGithub/></a>
+        <a href="https://twitter.com/Siddhan97115645"><IoLogoTwitter/></a>
+        <a href="https://www.linkedin.com/in/siddhant-tripathi-48b4a61b8/"><AiFillLinkedin/></a>
       </div>
 
       <div className='footer_copyright'>
-        <small>&copy; Kamlesh Portfolio. All rights reserviced 2023</small>
+        <small>&copy; Siddhant Portfolio. All rights reserved 2023</small>
       </div>
     </footer>
   )

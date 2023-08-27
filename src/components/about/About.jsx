@@ -25,13 +25,13 @@ const About = () => {
             <article className="about_card">
               <MdCastForEducation className="about_icon" />
               <h5>Education</h5>
-              <small>MNNIT Allahabad</small>
+              <small>RAJ KUMAR GOEL INSTITUTE OF TECHNOLOGY AND MANAGEMENT</small>
               <br />
               <small>
-                Incomplete, &nbsp; B.Tech Mechanical Engineering
+                &nbsp; B.Tech, Computer science and Engineering
               </small>{" "}
               <br />
-              <small>Jul 2018 - Feb 2021</small>
+              <small>Jul 2019 - Feb 2023</small>
             </article>
             <article className="about_card">
               <MdLanguage className="about_icon" />
@@ -42,16 +42,13 @@ const About = () => {
           <p>
             <div>
               <p>
-                I was enrolled in B. Tech Mechanical Engineering Program at
-                MNNIT Allahabad in session 2018-2022. Later I found myself
-                inclined toward learning new computer-related technologies and
-                skills by myself. That led to me quitting college in February
-                2021.
+                I have been enrolled in B. Tech Computer Science and  Engineering Program at
+                RKGITM  Ghaziabad in session 2019-2023
               </p>
               <p  style={{marginTop:'-1rem'}} >
                 I take intrest in reading and learning about different
                 disciplines of natural Science. I like to listen all sort of
-                music. I'm big fan of Marvel Cinematic Universe (MCU).
+                music. I'm big fan of Marvel Cinematic Universe (MCU) I like play cricket in my sphare time and I also like cook food and I also like travling. 
               </p>
             </div>
           </p>
